@@ -1,0 +1,49 @@
+input.apple-switch {
+  position: relative;
+  -webkit-appearance: none;
+  outline: none;
+  width: 74px;
+  height: 30px;
+  background-color: #383A3B;
+  border: 1px solid #ffffff;
+  border-radius: 50px;
+}
+
+input.apple-switch:after {
+  content: "";
+  position: absolute;
+  top: 3px;
+  left: 2px;
+	background-color: #ffffff;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  box-shadow: 2px 4px 6px rgba(0,0,0,0.2);
+}
+
+input.apple-switch:checked {
+  box-shadow: inset 20px 0 0 0 #383A3B;
+  border-color: #ffffff;
+}
+
+input.apple-switch:checked:after {
+  left: 47px;
+  box-shadow: -2px 4px 3px rgba(0,0,0,0.05);
+	background-color: #ffffff;
+}
+.switch-wrapper {
+  width: 74px;
+  height: 30px;
+  margin-left: 76px;
+  position: relative;
+}
+
+.switch-label {
+  font-size: 14px;
+  font-family: 'Helvetica';
+  color: #ffffff;
+  position: absolute;
+  top: 9px;
+  left: 13px;
+}
+
